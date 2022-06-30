@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Your Best Gym</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="../form-project/img/1472534106.svg" alt="logo">
+            <div id="header-logotype">FITNESS FOR YOU <span id="quote">First step is the hardest of all steps...</span></div>
+        </div>
+    </header>
+    <section>
+        <div id="quote"></div>
+            <form action="/" id="register">
+                <h1 id="form-header">Don't Hesitate! Sign up now!</h1>
+                <div class="form-row">
+                    <span class="left">
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="username" minlength="2" pattern="^[a-zA-Z]*$" required>
+                    </span>
+                    <span class="right">
+                        <label for="surname">Last Name</label>
+                        <input type="text" id="surname" name="usersurname" minlength="2" pattern="^[a-zA-Z]*$" required>
+                    </span>
+                </div>
+                <div class="form-row">
+                    <span class="left">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="usermail" required>
+                    </span>
+                    <span class="right">
+                        <label for="number">Phone Number</label>
+                        <input type="tel" id="number" name="userphone" required>
+                    </span>
+                </div>
+                <div class="form-row">
+                    <span class="left">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="userpassword" required>
+                    </span>
+                    <span class="right">
+                        <label for="conf-password">Confirm Password</label>
+                        <input type="password" id="conf-password" name="passConfirmation" required>
+                    </span>
+                </div>
+                <p>Already signed up ? <a href="">Log In</a></p>
+            </form>
+                <button id="button" type="submit" form="register">Create Account</button>
+            </div>
+            <p>Photo by <a href="https://unsplash.com/@alexplonsky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Plonskij</a> on <a href="https://unsplash.com/t/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+            <p>Logo SVG by <a href="https://freesvg.org/fitness-weight-silhouette">OpenClipart freesvg.org</a></p>
+        </div>
+
+    </section>
+</body>
+</html>
