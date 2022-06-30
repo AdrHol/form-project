@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /* border: 1px solid black; */
+    font-family: 'Ropa Sans', sans-serif;
 }
 body {
     height: 100vh;
@@ -43,12 +44,13 @@ div#header-logotype {
     letter-spacing: 0.8rem;
     color: white;
     flex: 1;
+    font-family: 'Francois One', sans-serif;
 }
 div#header-logotype span {
     
     font-size: 1rem;
     letter-spacing: 0.4rem;
-    
+    font-family: 'Francois One', sans-serif;
 }
 section {
     height: 70%;
@@ -68,6 +70,7 @@ form{
     height: 36vh;
     width: 35vw;
     min-width: 310px;
+    font-family: 'Ropa Sans', sans-serif;
 }
 
 #form-header {
