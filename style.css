@@ -67,7 +67,7 @@ form{
     border-radius: 1rem;
     box-shadow: 0 0 6px 6px silver;
     padding: 10px 25px;
-    height: 36vh;
+    /* height: 36vh; */
     width: 35vw;
     min-width: 310px;
     font-family: 'Ropa Sans', sans-serif;
